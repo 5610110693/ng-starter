@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ng Starter';
   x =['a', 'b'];
+
+  debugx(event){
+    console.log(event.key);
+  }
+
 }
 
