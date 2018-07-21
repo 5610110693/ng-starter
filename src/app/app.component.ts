@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ng Starter';
   x =['a', 'b'];
+  show = false;
 
   debugx(event){
     let val = event.target.value;
