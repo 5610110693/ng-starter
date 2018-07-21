@@ -18,10 +18,12 @@ export class NavbarComponent implements OnInit {
    },
    {
     name: "Dropdown",
-    link: "/",
-    id: "dropdown01",
-    menus: [
-      {name: "Action"},
+    id: "xxx",
+    link: "http://google.co.th",
+    subMenus: [
+      {name: "Action", link: "#"},
+      {name: "Another action", link: "#"},
+      {name: "Something else here", link: "#"}
     ]
    }
   ];
