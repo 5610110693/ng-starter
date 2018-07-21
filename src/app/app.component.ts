@@ -10,7 +10,9 @@ export class AppComponent {
   x =['a', 'b'];
 
   debugx(event){
-    console.log(event.key);
+    let val = event.target.value;
+    this.title = val;
+    //console.log(event.target.value);
   }
 
 }
