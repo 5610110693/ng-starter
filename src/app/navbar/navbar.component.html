@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item" *ngFor="let menu of menus">
-          <a class="nav-link" href="{{ menu.link }}" *ngIf="!menu.menus">{{ menu.name }}</a>
-          <a class="nav-link" href="{{ menu.link }}" *ngIf="menu.menus" 
+          <a class="nav-link" routerLink="{{ menu.link }}" *ngIf="!menu.menus">{{ menu.name }}</a>
+          <a class="nav-link" routerLink="{{ menu.link }}" *ngIf="menu.menus" 
           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" [id]="id">{{ menu.name }}</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">Action</a>
